@@ -47,7 +47,7 @@ public partial class Form1 : Form
         }
 
         // Set chart properties
-        series.ChartType = SeriesChartType.Column;
+        series.ChartType = SeriesChartType.StackedArea;
         chartArea.Area3DStyle.Enable3D = true;
         
         _chart1.Titles.Add(new Title("Profit $M", Docking.Top, new Font("Arial", 12), Color.Black));
