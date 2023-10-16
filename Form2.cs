@@ -52,8 +52,8 @@ public partial class Form2 : Form
         }
 
         // Set chart properties
-        series.ChartType = SeriesChartType.Pie;
-
+        series.ChartType = SeriesChartType.Doughnut;
+        series["DoughnutRadius"] = "30";
 
         _chart1.Titles.Add(new Title("Profit $M", Docking.Top, new Font("Arial", 12), Color.Black));
     }
