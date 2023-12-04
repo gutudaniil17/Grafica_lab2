@@ -7,7 +7,10 @@ static class Program
     {
         // Form1 form1 = new Form1();
         // form1.ShowDialog();
-        Form2 form2 = new Form2();
-        form2.ShowDialog();
+        // Form2 form2 = new Form2();
+        // form2.ShowDialog();
+
+        BitmapImageView imageView = new BitmapImageView();
+        imageView.ShowDialog();
     }
 }
